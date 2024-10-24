@@ -1,0 +1,7 @@
+nacos:
+  url: http://nacos_server:8848/nacos_path # Nacos 服务的 URL
+  beat: http://nacos_server:8848/beat_path # Nacos 的心跳检查 URL
+
+server:
+  ip: 0.0.0.0
+  port: 5000
